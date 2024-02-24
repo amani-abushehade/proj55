@@ -1,0 +1,403 @@
+
+.app {
+    padding-top: 160px;
+    height: 100vh; 
+    width: 100%;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+.title{
+    font-size: 20px;
+    width: 285px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: solid white 1px; 
+    background: linear-gradient(to right , #5e08af, #0748c0); 
+}
+.pareg{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.iconcontact{
+    color: white;
+    border-radius: 50%;
+    border: white 1px solid;
+    padding: 2px;
+    font-size: smaller;
+}
+.hello{
+    color: #8a8383;
+    font-size: 18px;
+}
+.divpt{
+    width: 40%;
+}
+.contact{
+    padding: 40px 0;
+}
+.contact a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+.skills{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.app1{ 
+    width: 100%;
+    padding-bottom:90px;
+    padding-top: 90px;
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.app2{ 
+    width: 100%;
+    background-size: cover; 
+    background-position: center; 
+    padding-bottom: 50px;
+}
+.hello1{
+    color: #8a8383;
+    font-size: 18px;
+    width: 550px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.nav2{
+    margin: auto;
+    border: 1px solid #ddd;
+    height: 60px;
+    width: 600px;
+    border-radius: 30px;
+    display: flex;
+    font-size: 20px;
+    
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+}
+.nav2 div{
+    border-right: 1px solid #ddd;
+    text-align: center;
+    width: 33.5%;
+    padding-top: 12px;
+}
+
+.nav2 .nav-item3{
+    border: 0;
+    
+}
+.focused1 {
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    border-top-left-radius: 30px; 
+    border-bottom-left-radius: 30px;
+}
+    
+
+.focused2{
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    
+}
+.focused3{
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* ///////////////////////////////////////////////////////////// */
+.responsive-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    position: relative;
+    padding-bottom: 30px;
+}
+.alin{
+  position: absolute;
+  width: 32%;
+  height:0; 
+  top: 0;
+  border-radius: 30px;
+  padding-top: 80px;
+  text-align: center;
+  visibility: hidden;
+  background-color: #6b0899be;
+  color: white;
+  transition:0.3s;
+}
+.alin2{
+    position: absolute;
+    width: 32%;
+    height:0; 
+    top: 255px;
+    border-radius: 30px;
+    padding-top: 80px;
+    text-align: center;
+    visibility: hidden;
+    background-color: #6b0899be;
+    color: white;
+    transition:0.3s;
+  }
+.responsive-item:hover .alin{
+visibility: visible;
+height: 240px; 
+}
+.responsive-item:hover .alin2{
+    visibility: visible;
+    height: 240px; 
+ }
+
+
+.alintext{
+    opacity: 0;
+    transition: 0.3s;
+}
+.responsive-item:hover .alintext{
+    opacity: 1;
+    
+}
+.responsive-item {
+    width: 32%;
+    border-radius: 30px;
+    height: 240px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+.gradient-background {
+    background: linear-gradient(to right, #290133 0%, #000 20% 80%, #1a0147 100%);
+    color: #000;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.logo2{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+.social-icons2 {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+     text-align: center; 
+     margin-left:65%;
+    transition: .4s;
+
+ }
+  
+  .social-icons2 a {
+    padding: 4px;
+    color: white; 
+    height: 40px;
+    width: 40px;
+    border: solid white 1px;
+    border-radius: 50%;
+    transition: .4s;
+  }
+.social-icons2 a:hover{
+    color: black;
+    background-color: white;
+}
+/* ////////////////////////////////////////////////////////////////// */
+ .gradient-background2 {
+    padding: 95px 120px;
+    background-color: white;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin: auto;
+    height: 260px;
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+}
+.content-container input {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 23px;
+    border: 1px solid #a044ff;
+    border-radius:20px;
+    padding-right: 240px;
+}
+.content-container input::placeholder{
+    color: #000000b4;
+}
+
+.content-container button {
+    padding: 18px 60px;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    background: linear-gradient(to right, #be2de2, #4a00e0);
+    color: white;
+    cursor: pointer;
+}
+.gradient-background2 .positiontext{
+    font-size:30px;
+    line-height:35px;
+     font-weight:bold;
+     width:45%;
+}
+/* //////////////////////////////////////////////////////// */
+@media (max-width: 950px) {
+    .responsive-item {
+        width: 48%; 
+    }
+    .nav2{
+        margin: auto;
+        border: 1px solid #ddd;
+        height: 60px;
+        width: 400px;
+        border-radius: 30px;
+        display: flex;
+        font-size: 20px;
+        
+    }
+    .alin{
+        width: 48%;
+      }
+      .alin2{
+        width: 48%;
+      }
+      .responsive-item:nth-child(3) .alin {
+        top: 255px;
+      }
+      .responsive-item:nth-child(5) .alin2 {
+        top: 510px;
+      }
+      .responsive-item:nth-child(6) .alin2 {
+        top: 510px;
+      }
+      .gradient-background2 .positiontext{
+        font-size:20px;  
+    line-height:25px;
+
+    }
+    .content-container input {
+        padding-top: 23px;
+        padding-bottom: 23px;
+        padding-left: 23px;
+        border: 1px solid #a044ff;
+        border-radius:20px;
+        padding-right: 100px;
+    }
+    .content-container button {
+        padding: 18px 30px;
+        border: none;
+        font-weight: bold;
+        border-radius: 20px;
+        background: linear-gradient(to right, #be2de2, #4a00e0);
+        color: white;
+        cursor: pointer;
+    }
+    .gradient-background2 {
+        padding: 95px 80px;
+        background-color: white;
+        border-radius: 40px;
+        color: rgb(0, 0, 0);
+        width: 80%;
+        margin: auto;
+        height: 260px;
+    }
+}
+
+@media (max-width: 650px) {
+    .responsive-item {
+        width: 100%; 
+    }
+    .nav2{
+        margin: auto;
+        border: 1px solid #ddd;
+        height: 60px;
+        width: 300px;
+        border-radius: 30px;
+        display: flex;
+        font-size: 17px;
+        
+    }
+    .hello1{
+        color: #8a8383;
+        font-size: 18px;
+        width: 350px;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .alin{
+        width: 100%;
+      }
+      .alin2{
+        width: 100%;
+      }
+      .responsive-item:nth-child(2) .alin {
+        top: 255px;
+      }
+      .responsive-item:nth-child(3) .alin {
+        top: 510px;
+      }
+      .responsive-item:nth-child(4) .alin2 {
+        top: 765px;
+      }
+      .responsive-item:nth-child(5) .alin2{
+        top:1020px;
+      }
+      .responsive-item:nth-child(6) .alin2{
+        top: 1275px;
+      }
+      .gradient-background2 .positiontext{
+        font-size:15px;  
+    line-height:15px;
+
+    }
+    .content-container input {
+        padding-top: 23px;
+        padding-bottom: 23px;
+        padding-left: 23px;
+        border: 1px solid #a044ff;
+        border-radius:20px;
+        padding-right: 20px;
+    }
+    .content-container button {
+        padding: 18px 10px;
+        border: none;
+        font-weight: bold;
+        border-radius: 20px;
+        background: linear-gradient(to right, #be2de2, #4a00e0);
+        color: white;
+        cursor: pointer;
+    }
+    .gradient-background2 {
+        padding: 95px 20px;
+        background-color: white;
+        border-radius: 40px;
+        color: rgb(0, 0, 0);
+        width: 80%;
+        margin: auto;
+        height: 260px;
+    }
+    .social-icons2{
+        margin-left: 40%;
+    }
+}
