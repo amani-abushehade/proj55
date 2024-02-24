@@ -54,8 +54,8 @@ const Skills = () => {
     <div id="skills" className="app1" style={{ backgroundImage: `url(${backgroundImage})` }}>
     <div className='skills' style={{ backgroundColor: '#333', color: '#fff', padding: '30px' }}>
       <h2 style={{fontSize:'45px', paddingBottom:'20px'}}>Skills</h2>
-      <h3 style={{fontSize:'18px' , color:'rgb(160, 157, 157)'}}>You Can See My Skills Here Yasta</h3>
-      <div style={{paddingTop:'70px' , width:'65%', margin:'auto', paddingBottom:'40px'}}>
+      <h3 style={{fontSize:'18px' , color:'rgb(160, 157, 157)'}}>You Can See My Skills Here</h3>
+      <div className='skills'>
       <Slider {...settings}>
         {skills.map((skill, index) => (
           <div key={index} style={{ width: '33%'}}>

@@ -19,7 +19,7 @@ const lastSection = () => {
             <Linkedin size={20} />
           </a>
         </div>
-            <div style={{color:"white", fontSize:"15px"}}>--Copyrights 2024-- All Rights Reserved By Amani Abdelhamed Abu Shehade</div>
+            <div className="lastp" >--Copyrights 2024-- All Rights Reserved By Amani Abdelhamed Abu Shehade</div>
         </div>
        </div>
     )

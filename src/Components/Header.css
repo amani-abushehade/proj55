@@ -67,3 +67,29 @@
     color: black;
     background-color: white;
 }
+#basic-navbar-nav{
+    background-color: rgba(17, 17, 17, 0.705);
+    margin-right: auto;
+}
+@media (max-width: 540px) {
+    .navbar {
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        z-index: 20;
+        padding: 10px;
+        background-color: rgba(17, 17, 17, 0.705);
+      }
+      .logo{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #basic-navbar-nav{
+        background-color: rgba(17, 17, 17, 0.705);
+        position: absolute;
+        left: -500px;
+        width: 350px;
+        top: 70px;
+    }
+}

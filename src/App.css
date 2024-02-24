@@ -216,6 +216,10 @@ height: 240px;
     border-radius: 50%;
     transition: .4s;
   }
+  .lastp{
+    color: white;
+    font-size: 15px;
+  }
 .social-icons2 a:hover{
     color: black;
     background-color: white;
@@ -229,6 +233,10 @@ height: 240px;
     width: 80%;
     margin: auto;
     height: 260px;
+    position: absolute;
+    z-index: 10;
+    top: 58%;
+    left: 10%;
 }
 .content-container{
     display: flex;
@@ -261,6 +269,16 @@ height: 240px;
      font-weight:bold;
      width:45%;
 }
+.circle-progress {
+    width: 130px;
+    height: 130px;
+  }
+  .skills{
+    width: 65%;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    margin: auto;
+  }
 /* //////////////////////////////////////////////////////// */
 @media (max-width: 950px) {
     .responsive-item {
@@ -328,22 +346,58 @@ height: 240px;
     .responsive-item {
         width: 100%; 
     }
+    .app {
+        padding-top: 40px;
+        height: 130vh; 
+        width: 100%;
+        background-size: cover; 
+        background-position: center; 
+        display: flex;
+        flex-direction: column;
+      }
+      .divpt{
+        width: 100%;
+        padding: 0 20px;
+    }
+      .pareg{
+        color: white;
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .circle-progress {
+        width: 105px;
+        height: 105px;
+      }
+      .skills{
+        width: 75%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin: auto;
+      }
+      .title{
+        font-size: 15px;
+        width: 250px;
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+        border: solid white 1px; 
+        background: linear-gradient(to right , #5e08af, #0748c0); 
+    }
+    .hello1{
+        color: #8a8383;
+        /* font-size: 15px; */
+        width: 300px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
     .nav2{
         margin: auto;
         border: 1px solid #ddd;
         height: 60px;
-        width: 300px;
+        width: 290px;
         border-radius: 30px;
         display: flex;
-        font-size: 17px;
-        
-    }
-    .hello1{
-        color: #8a8383;
-        font-size: 18px;
-        width: 350px;
-        margin: auto;
-        padding-bottom: 30px;
+        font-size: 16px;   
     }
     .alin{
         width: 100%;
@@ -367,9 +421,10 @@ height: 240px;
         top: 1275px;
       }
       .gradient-background2 .positiontext{
-        font-size:15px;  
-    line-height:15px;
-
+        font-size:25px;  
+        line-height:25px;
+        width:100%;
+        padding-bottom: 10px;
     }
     .content-container input {
         padding-top: 23px;
@@ -388,16 +443,53 @@ height: 240px;
         color: white;
         cursor: pointer;
     }
-    .gradient-background2 {
-        padding: 95px 20px;
-        background-color: white;
-        border-radius: 40px;
-        color: rgb(0, 0, 0);
-        width: 80%;
-        margin: auto;
-        height: 260px;
-    }
-    .social-icons2{
-        margin-left: 40%;
-    }
+     .gradient-background2 {
+    padding: 40px 25px;
+    background-color: white;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin: auto;
+    height: 260px;
+    position: absolute;
+    z-index: 10;
+    top: 70%;
+    left: 10%;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gradient-background {
+    background: linear-gradient(to right, #290133 0%, #000 20% 80%, #1a0147 100%);
+    color: #000;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.logo2{
+    color: white;
+    font-size:35px;
+    font-weight: bold;
+}
+.lastp{
+    color: white;
+    font-size: 13px;
+    width: 200px;
+  }
+  .social-icons2 {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+     text-align: center; 
+     margin-left:15%;
+    transition: .4s;
+
+ }
 }

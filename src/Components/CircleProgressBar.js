@@ -1,10 +1,12 @@
 import React from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import '../App.css';
+
 
 const MyGradientCircularProgress = ({ percentage }) => {
   return (
-    <div style={{ width: '130px' , height: '130px' }}>
+    <div  className="circle-progress"  >
       <CircularProgressbar
         value={percentage}
         text={`${percentage}%`}

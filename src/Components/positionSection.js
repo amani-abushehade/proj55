@@ -3,7 +3,7 @@ import '../App.css';
 
 const positionSection = () => {
     return (
-        <div className="gradient-background2" style={{ position: 'absolute', top: '58%', left: '10%',zIndex:"20" }}>
+        <div className="gradient-background2">
             <div className="content-container">
                 <div className="positiontext" >See My Projects At Once & leave Here Your E-mail Address.</div>
                 <div><form style={{ position: 'relative' }}>

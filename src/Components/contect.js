@@ -26,7 +26,7 @@ const Contect = () => {
 
   return (
     <div id="contect" ref={ref}>
-      <div style={{ width: '38%', height: '500px', paddingTop:"50px", paddingBottom:"20px",paddingLeft:"12px",paddingRight:"12px"}}>
+      <div className="contact-img">
         <ContactImag isVisible={inView} />
       </div>
       <ContactForm isVisible={isVisible} />
